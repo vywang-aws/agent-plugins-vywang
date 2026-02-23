@@ -59,9 +59,8 @@ Aurora Serverless v2 charges per ACU-hour (Aurora Capacity Unit).
 DocumentDB Serverless charges per DCU-hour (DocumentDB Capacity Unit),
 storage (GB-month), and I/O (standard config only).
 
-- Minimum: 0.5 DCU, scales in 0.5 DCU increments
-- 1 DCU ≈ 2 GiB memory with corresponding CPU and networking
-- Standard: $0.0822/DCU-hour, I/O-Optimized: $0.0905/DCU-hour (us-east-1)
+- Minimum: 0.5 DCU
+- 1 DCU ≈ 2 GiB memory
 
 **Dev estimate (0.5-2 DCU range, 10GB storage):**
 
