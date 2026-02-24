@@ -17,7 +17,7 @@ Use the **awspricing** MCP server to get accurate cost estimates before generati
 | Aurora PostgreSQL | `AmazonRDS`         | Filter: `databaseEngine` = "Aurora PostgreSQL" |
 | Aurora MySQL      | `AmazonRDS`         | Filter: `databaseEngine` = "Aurora MySQL"      |
 | RDS PostgreSQL    | `AmazonRDS`         | Filter: `databaseEngine` = "PostgreSQL"        |
-| Amazon DocumentDB        | `AmazonDocDB`       | MongoDB-compatible managed database            |
+| Amazon DocumentDB | `AmazonDocDB`       | MongoDB-compatible managed database            |
 | ALB               | `AWSELB`            | Application Load Balancer                      |
 | S3                | `AmazonS3`          | Storage and requests                           |
 | CloudFront        | `AmazonCloudFront`  | CDN distribution                               |

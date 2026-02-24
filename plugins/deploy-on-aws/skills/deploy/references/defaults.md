@@ -30,14 +30,14 @@ Use `amplify_docs` topic in awsknowledge MCP for framework-specific guidance
 
 ## Database
 
-| Data Pattern         | Default (Dev)                 | Default (Prod)                | Override Trigger                               |
-| -------------------- | ----------------------------- | ----------------------------- | ---------------------------------------------- |
-| PostgreSQL           | Aurora Serverless v2          | Aurora Serverless v2          | "simple RDS" → RDS                             |
-| MySQL                | Aurora Serverless v2          | Aurora Serverless v2          | "simple RDS" → RDS                             |
-| Document / MongoDB   | Amazon DocumentDB Serverless  | Amazon DocumentDB Serverless  | "provisioned" → Amazon DocumentDB provisioned  |
-| NoSQL / Key-Value    | DynamoDB                      | DynamoDB                      | -                                              |
-| Redis / Caching      | ElastiCache Serverless        | ElastiCache Serverless        | -                                              |
-| Full-text search     | OpenSearch Serverless         | OpenSearch Serverless         | -                                              |
+| Data Pattern       | Default (Dev)                | Default (Prod)               | Override Trigger                              |
+| ------------------ | ---------------------------- | ---------------------------- | --------------------------------------------- |
+| PostgreSQL         | Aurora Serverless v2         | Aurora Serverless v2         | "simple RDS" → RDS                            |
+| MySQL              | Aurora Serverless v2         | Aurora Serverless v2         | "simple RDS" → RDS                            |
+| Document / MongoDB | Amazon DocumentDB Serverless | Amazon DocumentDB Serverless | "provisioned" → Amazon DocumentDB provisioned |
+| NoSQL / Key-Value  | DynamoDB                     | DynamoDB                     | -                                             |
+| Redis / Caching    | ElastiCache Serverless       | ElastiCache Serverless       | -                                             |
+| Full-text search   | OpenSearch Serverless        | OpenSearch Serverless        | -                                             |
 
 ### Why Aurora Serverless v2
 
